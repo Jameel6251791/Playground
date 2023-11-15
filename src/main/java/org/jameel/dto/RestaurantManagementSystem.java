@@ -1,10 +1,8 @@
 package org.jameel.dto;
 
-import java.util.Arrays;
-
 public class RestaurantManagementSystem {
     private static final int MAX_COMBO_NUM = 20;
-    private int comboNum = 0;
+    private final int comboNum = 0;
     private Combo[] combos;
 
     public RestaurantManagementSystem() {
